@@ -6,3 +6,4 @@ A data set gotten from [kaggle] (https://www.kaggle.com/datasets/carrie1/ecommer
 
 # Api Ingest
 Two APIs were created. A root API (hello world) was first created to test if the API actually work,  Get and Post to put the data into the invoice item part.
+https://user-images.githubusercontent.com/41475769/181742396-1a740e7c-754d-4a13-9109-420f3b384575.PNG

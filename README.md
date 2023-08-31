@@ -17,7 +17,6 @@ Postman was used for testing the API. Data was written into postman and request 
 A docker-compose file for kafka was created and run in the docker network. A topic called "Injestion-Topic" was created to test kafka producer and consumer 
 ![creating-kafka-topic](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/c2ddc898-e593-40cb-b035-45e52114b383)
 
-
 A python script witch also contains the Kafka producer and topics was created to test the kafka connection.
 ![testing-kafka-producer-on-jupyter-4](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/63046d7b-bbb1-4764-a024-a1d8730955f1)
 

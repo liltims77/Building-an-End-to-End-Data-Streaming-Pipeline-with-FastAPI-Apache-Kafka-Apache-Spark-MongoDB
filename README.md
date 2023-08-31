@@ -7,6 +7,21 @@ A data set gotten from [kaggle] (https://www.kaggle.com/datasets/carrie1/ecommer
 # Api Ingest
 Two APIs were created. A root API (hello world) was first created to test if the API actually work with a GET command.
 ![test-api-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/de63dd51-e066-48c3-beae-531b4d8f874d)
+
+# Testing
+Postman was used for testing the API. Data was written into postman and request was sent. response 201 gotton means API is working.
 ![test-api-with-postman-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/97bcd7bb-de5a-4f00-be3c-db4fd3809d61)
 
+# Starting up kafka
+A docker-compose file for kafka was created and run in the docker network. A topic called "Injestion-Topic" was created to test kafka producer and consumer 
+![creating-kafka-topic](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/c2ddc898-e593-40cb-b035-45e52114b383)
 
+
+A python script witch also contains the Kafka producer was created to test the kafka connection.
+![testing-kafka-producer-on-jupyter-4](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/63046d7b-bbb1-4764-a024-a1d8730955f1)
+
+kafka consumer consume messages on the producer python script.
+![testing-kafka-consumer-on-jupyter-5](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/007741ae-2331-4a26-99ef-0e58e36f6694)
+
+kafka consumer reads the message sent.
+![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/6a5c3810-ad75-4ce0-9adf-fd8e43425b2f)

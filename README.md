@@ -23,8 +23,8 @@ A docker-compose file for kafka was created and run in the docker network. A top
 ### kafka consumer consume messages subscribed to that particulat topic on the producer python script.
 ![testing-kafka-consumer-on-jupyter-5](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/007741ae-2331-4a26-99ef-0e58e36f6694)
 
-Message created in the postman collection was sent with a POST request to the producer via tha API, and consumer reads the message sent.
+### Message created in the postman collection was sent with a POST request to the producer via tha API, and consumer reads the message sent.
 ![testing-with-postman-3](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/2f2840a8-9c41-4452-87d2-dfd9dd8f0b6e)
 
-kafka consumer subscribed to the "Injestion-topic" reads the message sent.
+### kafka consumer subscribed to the "Injestion-topic" reads the message sent.
 ![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/6a5c3810-ad75-4ce0-9adf-fd8e43425b2f)

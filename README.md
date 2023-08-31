@@ -6,5 +6,7 @@ A data set gotten from [kaggle] (https://www.kaggle.com/datasets/carrie1/ecommer
 
 # Api Ingest
 Two APIs were created. A root API (hello world) was first created to test if the API actually work with a GET command.
+![test-api-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/de63dd51-e066-48c3-beae-531b4d8f874d)
+![test-api-with-postman-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/97bcd7bb-de5a-4f00-be3c-db4fd3809d61)
 
 

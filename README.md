@@ -62,6 +62,14 @@ A docker-compose file for kafka was created and run in the docker network. A top
 ![api-client-data-vsc](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/a5c59b21-b0b3-49f8-9d99-1602921e1c1a)
 ![api-client-data](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/8dc0b7ab-4237-493c-9f7a-541ceb926cc9)
 
+## Streamlit was used to visualize the data: what each users (Customer_ID) purchased along with their invoives, items purchased, Quantity, stockcode and how many times and Items they have purchased.
+![streamlit-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/14f53962-e026-461f-b9f0-9797142bbdfb)
+![streamlit-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/d525122d-74f9-46bc-a636-985592dc3769)
+![output-each-customer](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/14b026e4-f1e8-4cc7-8357-d429eb1b33c0)
+![customer-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/76470bae-a17d-4432-85b5-ac0d3c85bcf7)
+![customer-n](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/7a726458-98a4-4b5d-b70c-af291871af63)
+
+
 
 
 

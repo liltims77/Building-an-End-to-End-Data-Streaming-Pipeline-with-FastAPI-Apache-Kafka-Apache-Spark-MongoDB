@@ -60,6 +60,8 @@ A docker-compose file for kafka was created and run in the docker network. A top
 
 ## API-CLIENT with python scripts was then used to send all the data (OUTPUT.TXT) because we started with only 3 users data for the project
 ![api-client-data-vsc](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/a5c59b21-b0b3-49f8-9d99-1602921e1c1a)
+![api-client-data](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/8dc0b7ab-4237-493c-9f7a-541ceb926cc9)
+
 
 
 

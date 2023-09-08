@@ -26,5 +26,20 @@ A docker-compose file for kafka was created and run in the docker network. A top
 ### Message created in the postman collection was sent with a POST request to the producer via tha API, and consumer reads the message sent.
 ![testing-with-postman-3](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/2f2840a8-9c41-4452-87d2-dfd9dd8f0b6e)
 
-### kafka consumer subscribed to the "Injestion-topic" reads the message sent.
-![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/6a5c3810-ad75-4ce0-9adf-fd8e43425b2f)
+## kafka consumer subscribed to the "Injestion-topic" reads the message sent.
+### The docker-compose file for kafka was stopped, dockerfile and requirements.txt file was built, docker-compose file was started again with a dockerfile to ingest the API. Kafka producer and consumer was enabled Postman was used to send message to kafka consumer, consumer reads message sent by Postman.
+![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/6a5c3810-ad75-4ce0-9adf-fd8e43425b2f
+
+### All docker containers were shut down, Docker-compose file that contains (Kafka and spark) was run, Another topic "SPARK-OUTPUT" topic was created in kafka to read streams of messages produced by kafka
+## Jupyter notebook showing kafka and spark configurations and how spark reads message from kafka streams
+![spark-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/497319f3-9369-4beb-ac3a-0c46005fe695)
+![spark-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/bf50f333-151f-4a47-9ee7-16cc7ac4c78c)
+## Kafka-spark output
+![kafka-spark](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/11d18ae8-e0a6-4a1a-92d3-e7f5a9c83819)
+![data-streaming from Kafka to spark output topic](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/d5631ea1-1892-4d1b-906b-5c17fb6df3cc)
+![spark-3](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/f438800f-4610-433f-938f-0ac5d0c05ce4)
+![spark-subscribe-to-ingestion-topic](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/58962c43-5cf7-47ba-b39e-a46b8b390978)
+
+
+
+

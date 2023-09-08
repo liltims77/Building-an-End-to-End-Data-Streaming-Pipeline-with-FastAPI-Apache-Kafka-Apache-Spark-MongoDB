@@ -28,7 +28,7 @@ A docker-compose file for kafka was created and run in the docker network. A top
 
 ## kafka consumer subscribed to the "Injestion-topic" reads the message sent.
 ### The docker-compose file for kafka was stopped, dockerfile and requirements.txt file was built, docker-compose file was started again with a dockerfile to ingest the API. Kafka producer and consumer was enabled Postman was used to send message to kafka consumer, consumer reads message sent by Postman.
-![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/6a5c3810-ad75-4ce0-9adf-fd8e43425b2f
+![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/a6c11df9-b6f4-4c3d-8124-d4b8c6d22971)
 
 ### All docker containers were shut down, Docker-compose file that contains (Kafka and spark) was run, Another topic "SPARK-OUTPUT" topic was created in kafka to read streams of messages produced by kafka
 ## Jupyter notebook showing kafka and spark configurations and how spark reads message from kafka streams

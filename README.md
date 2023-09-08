@@ -30,7 +30,7 @@ A docker-compose file for kafka was created and run in the docker network. A top
 ### The docker-compose file for kafka was stopped, dockerfile and requirements.txt file was built, docker-compose file was started again with a dockerfile to ingest the API. Kafka producer and consumer was enabled Postman was used to send message to kafka consumer, consumer reads message sent by Postman.
 ![kafka-receive-message-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/a6c11df9-b6f4-4c3d-8124-d4b8c6d22971)
 
-### All docker containers were shut down, Docker-compose file that contains (Kafka and spark) was run, Another topic "SPARK-OUTPUT" topic was created in kafka to read streams of messages produced by kafka. Postman was used to send message to kafka ingestion topic, spark-output topic reads messages consumed by ingestion topic, and also consumes thesame messages.
+### All docker containers were shut down, Docker-compose file that contains (Kafka and spark) was run, Another topic "SPARK-OUTPUT" topic was created in kafka to read streams of messages produced by kafka. Postman was used to send message to kafka ingestion topic, spark-output topic reads messages consumed by ingestion topic with Spark SQL, and also write messages back to consume thesame messages.
 ## Jupyter notebook showing kafka and spark configurations and how spark reads message from kafka streams
 ![spark-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/497319f3-9369-4beb-ac3a-0c46005fe695)
 ![spark-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/bf50f333-151f-4a47-9ee7-16cc7ac4c78c)
@@ -48,7 +48,18 @@ A docker-compose file for kafka was created and run in the docker network. A top
 ![spark-mongodb-doc](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/f723e89e-0af2-43a9-b221-79e835e98441)
 ![Mongo-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/bf011a4a-8c90-44de-8d1a-e4b1627fc9f1)
 ![mongo-3](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/2f06975e-8629-4af5-bbbf-48e5c7317412)
-i
+
+## Note: kafka can only read messages in JSON format converted to KEY and VALUSE and then ENCODE message sent to the topic and messages ared DECODED at consumer and converted back into JSON format in KEY and VALUE format.
+### Some transformation was done to convert the topics into ROWS and COLUMNS as document because MongoDB is a document store Database.
+![mongo-3](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/2f06975e-8629-4af5-bbbf-48e5c7317412)
+### Transforming data into Rows and Columns
+![all-data-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/ff5a53fa-be17-4258-83dc-4afa69332c6c)
+![all-data-1](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/2e81b3d4-7287-44d1-bd5b-0bed3277234c)
+![all-data-last](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/4a5b9662-5079-4f4b-81eb-41740fa72324)
+![mongo-2](https://github.com/liltims77/Building-an-End-to-End-Data-Streaming-Pipeline-with-FastAPI-Apache-Kafka-Apache-Spark-MongoDB/assets/41475769/739e773e-a280-4169-85af-879e597c1461)
+
+
+
 
 
 
